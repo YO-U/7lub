@@ -43,13 +43,13 @@ namespace _7lub
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            double S = 0;
+            double Summ = 0;
             foreach (double i in list)
             {
-                if (i >= 15) S += i;
+                if (i >= 15) Summ += i;
             }          
             string str = "";
-                str += $"{S:F2} ";         
+                str += $"{Summ:F2} ";         
            Sum.Text = Convert.ToString(str);
         }
     }
